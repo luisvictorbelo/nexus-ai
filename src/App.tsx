@@ -1,8 +1,5 @@
 import { Brain, BarChart3, Users, Lightbulb, Mail, Phone, MapPin } from 'lucide-react';
-import Header from '../components/Header';
-import Card from '../components/Card';
-import CardTitle from '../components/CardTitle';
-import CardDescription from '../components/CardDescription';
+import Header from './components/Header';
 
 function App() {
     return (

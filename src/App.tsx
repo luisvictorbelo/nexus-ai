@@ -85,8 +85,8 @@ function App() {
             <section id="contato" className="py-20 bg-white">
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-center mb-16">Entre em Contato</h2>
-                    <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-                        <div className="space-y-6">
+                    <div className="max-w-4xl mx-auto grid md:grid-cols-2">
+                        <div className="flex flex-col space-y-6">
                             <h3 className="text-xl font-semibold mb-4">Informações de Contato</h3>
                             <div className="flex items-center space-x-4">
                                 <Mail className="h-6 w-6 text-blue-600" />
@@ -101,9 +101,9 @@ function App() {
                                 <span>São Luís, MA</span>
                             </div>
                         </div>
-                        <div className='flex flex-col space-y-4'>
-                            <SocialNetworkButton type='WhatsApp'/>
-                            <SocialNetworkButton type='Instagram'/>
+                        <div className='flex flex-col items-center space-y-4 mt-5 sm:items-end sm:m-0'>
+                            <SocialNetworkButton type='WhatsApp' />
+                            <SocialNetworkButton type='Instagram' />
                         </div>
                     </div>
                 </div>
@@ -117,8 +117,9 @@ function App() {
                             <Brain className="h-8 w-8" />
                             <span className="text-xl font-bold">Nexus AI</span>
                         </div>
-                        <div className="text-gray-400 text-sm">
-                            © 2024 Nexus AI. Todos os direitos reservados.
+                        <div className="flex flex-col text-gray-400 text-sm">
+                            <span>© 2024 Nexus AI. Todos os direitos reservados.</span>
+                            <span>Icons by <a target="_blank" href="https://icons8.com" className='underline hover:text-blue-500'>Icons8</a></span>
                         </div>
                     </div>
                 </div>
